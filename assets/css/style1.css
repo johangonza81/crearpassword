@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image:url("../img/logo desafio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center; 
+    height: 95vh;
+    background-color:blue;
+}
+
+
+.btn{
+    margin-right: 30px;
+    color:yellow;
+    background-color: rgb(127, 68, 68);;
+    margin-top: 250PX;
+    width:150px;
+}
+
+H1{
+    color:rgb(127, 19, 19);
+}
+
+
+
+
+
+

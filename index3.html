@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style3.css">
+    <title>combinación</title>
+</head>
+<body>
+    <div class="container">
+        <div class="conte">
+            <h1>Ingresa el Passsword</h1>
+        </div>
+        <div class="container_select">
+            <div class="imagen1">
+                <img  id ="imagen_respu2" src="./assets/img/candado_abierto.png">
+            </div>
+            <div id="select_01">
+                <select id="select1" min="0" max="9" onclick=" opera1();">
+                <option value=0 type="number">0</option>
+                <option value=1 type="number">1</option>
+                <option value=2 type="number">2</option>
+                <option value=3 type="number">3</option>
+                <option value=4 type="number">4</option>
+                <option value=5 type="number">5</option>
+                <option value=6 type="number">6</option>
+                <option value=7 type="number">7</option>
+                <option value=8 type="number">8</option>
+                <option value=9 type="number">9</option>
+                </select>
+            </div>
+            <div id="select_02">
+                <select id="select2" min="0" max="9" onclick=" opera2();">
+                <option value=0 type="number">0</option>
+                <option value=1 type="number">1</option>
+                <option value=2 type="number">2</option>
+                <option value=3 type="number">3</option>
+                <option value=4 type="number">4</option>
+                <option value=5 type="number">5</option>
+                <option value=6 type="number">6</option>
+                <option value=7 type="number">7</option>
+                <option value=8 type="number">8</option>
+                <option value=9 type="number">9</option>
+                </select>
+            </div>
+            <div id="select_03">
+                <select id="select3" min="0" max="9" onclick=" opera3();">
+                <option value=0 type="number">0</option>
+                <option value=1 type="number">1</option>
+                <option value=2 type="number">2</option>
+                <option value=3 type="number">3</option>
+                <option value=4 type="number">4</option>
+                <option value=5 type="number">5</option>
+                <option value=6 type="number">6</option>
+                <option value=7 type="number">7</option>
+                <option value=8 type="number">8</option>
+                <option value=9 type="number">9</option>
+                </select>
+            </div>
+            <div class="imagen2">
+                <img  id ="imagen_respu" src="./assets/img/candado_cerrado.png">
+            </div>
+        </div>
+        <div class="boton">
+            <button id ="btn" type="button" onclick="validar_password(); opera1(); opera2(); opera3();
+            ">Ingresar</button>
+        </div>
+        <div class="respuesta">
+                <p><span id="Dato1">hola</span></p>
+                <p><span id="Dato2">hola</span></p>
+                <p><span id="Dato3">hola</span></p>
+                <p><span id="Dato4"></span></p>
+            
+        </div>
+        
+        </div>
+        <div class="regreso">
+            <button class="btn_regreso"><< Volver</button>
+        </div>
+    </div>
+
+    <script src="./assets/js/script3.js"></script>
+</body>
+</html>

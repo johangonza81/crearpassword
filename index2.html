@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <title>Sticker</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Puedes llevar hasta 10 stickers</h3>
+            <div class="card_container">
+                <div class="card">
+                    <div class="imagen_card">
+                        <img class= "img_cards" src="./assets/img/logo nba2.png">
+                    </div>
+                    <div class="input_card">
+                        <label for="salario">Ingese cantidad de stickers</label>
+                        <input type="number" name="sticker1" id="input-1" min="0" max="10"> 
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen_card">
+                        <img class= "img_cards" src="./assets/img/logo2.png">
+                    </div>
+                    <div class="input_card">
+                        <label for="salario">Ingese cantidad de stickers</label>
+                        <input type="number" name="sticker2" id="input-2" min="0" max="10"> 
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen_card">
+                        <img class= "img_cards" src="./assets/img/mlb.png">
+                    </div>
+                    <div class="input_card">
+                        <label for="salario">Ingese cantidad de stickers</label>
+                        <input type="number" name="sticker3" id="input-3" min="0" max="10"> 
+                    </div>   
+                </div>
+            </div>
+                
+                <div class="boton">
+                    <button class="btn_card" onclick="resultado();resultado2();" >Verificar</button>
+                </div>    
+                <div class="resultado">
+                    <p><span id="Dato1"></span></p>
+                </div>
+                
+    </div> 
+    <div class="regresar">
+        <button class="btn_regreso"> << Volver</button>
+    </div>
+    <script src="./assets/js/script2.js"></script>
+</body>
+</html>
